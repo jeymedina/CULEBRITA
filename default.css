@@ -1,0 +1,43 @@
+body{
+	background:url("fondo.jpg")no-repeat;
+	font-family: cursive;
+	color: white;
+}
+
+input{
+	background:#F8E6E0;
+	border-radius:7px;
+	width: 100px;
+	height: 25px;
+	font-family: cursive;
+	color: #FE2EC8;
+	border:none;
+}
+
+a{
+	text-transform: uppercase;
+	color: white
+}
+
+h4, h5{
+	text-align: left;
+	line-height: 10px;
+	margin-left: 34%;
+}
+
+table{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 7px;
+}
+#encabezado{
+	border: 1px solid white;
+	border-radius: 7px;
+	width:80%;
+	margin-bottom:10px;
+}
+
+#canvas{
+	border-radius: 5px;
+	border:none;
+}
