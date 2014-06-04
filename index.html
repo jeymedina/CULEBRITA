@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+	<meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+	<title>Culebrita UDEC</title>
+	<link rel="stylesheet" type="text/css" href="default.css" />
+	<script src = "script.js"></script>
+</head>
+<body>
+	<center>
+	
+		<div id="encabezado">
+			<p><h3>UNIVERSIDAD DE CUNDINAMARCA</h3></p>
+			<p><h4>Computacion Grafica</h4></p>
+			<p><h5><strong>Estudiante:</strong> Jeimmy Alejandra Olaya</h5></p>
+			<p><h5><strong>Docente:</strong> Jorge Rubiano</h5></p>
+		</div>
+		<table width = "80%">
+			<tr>
+				<td valign="top" width = "20%">
+					<table border = '0' width = "100%">
+						<tr>
+							<td width = "40%">Fondo</td>
+							<td width = "60%">
+								<input type = "color" id = "opcion_1"/>
+							</td>
+						</tr>
+						<tr>
+							<td>Culebrita</td>
+							<td>
+								<input type = "color" id = "opcion_2"/>
+							</td>
+						</tr>
+						<tr>
+							<td>Comida</td>
+							<td>
+								<input type = "color" id = "opcion_3"/>
+							</td>
+						</tr>
+					</table>
+					<hr>
+					<center>
+						<input type = "button" value = 'Pause' 
+						id = "detiene"></input>
+						<hr>
+						<div id="puntua">
+							Score: 0
+						</div>
+					</center>
+				</td>
+				<td width = "80%">
+					<canvas id="canvas" width="450" height="450">
+
+					</canvas>
+				</td>
+			</tr>
+		</table>
+		<center>
+		<a href = '#' id = "descarga" download = "estadisticaUDEC.png">
+			Descargar Imagen
+		</a>
+	</center>
+	</center>
+	<div id="sonido" style = "display:none;"></div>
+</body>
+</html>
